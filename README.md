@@ -52,6 +52,6 @@ Run:
 node client.js
 ```
 after running the node.js server to connect to the WebSocket Server.  
-Once connected, the server will send real-time Hacker News stories also on initial connection it will send the count of stories published in last 5 minutes.
+Once connected, the server will send real-time Hacker News stories, also on initial connection it will send the count of stories published in last 5 minutes.
 
 
