@@ -33,20 +33,20 @@ DB_NAME= hacker
 
 Make sure to replace DB_HOST, DB_USER, DB_PASSWORD according to your mysql instance.
 
-### 4. Once you have setup your database and environment variables,you can start the application by running the following command:
+### 4. Once you have setup your database and environment variables, you can start the application by running the following command:
 ```bash
 npm start
 ```
 
 ### 5. Testing the Websocket Connection
 To test the WebSocket connection:
-1. You can use any websocket client to connect to the WebSocket server at:
+You can use any websocket client to connect to the WebSocket server at:
 ```bash
 ws://localhost:3000
 ```
 
 or 
-1. For simplicity I have provided a client script(client.js) to test the WebSocket server under tests/  
+For simplicity I have provided a client script (client.js) to test the WebSocket server under tests/.  
 Run:
 ```bash
 node client.js
