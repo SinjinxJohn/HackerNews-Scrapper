@@ -23,8 +23,8 @@ You need a MySQL instance running locally or remotely.
 Execute the sql commands mentioned in db_init.sql file.
 
 #### 3.1 Configure the MySQL connection
-```bash
 Modify the values of .env file
+```bash
 DB_HOST=localhost or <hostname>
 DB_USER=root or <database_user>
 DB_PASSWORD=<your_password>
@@ -46,12 +46,12 @@ ws://localhost:3000
 ```
 
 or 
-1. For simplicity I have provided a client script(client.js) to test the WebSocket server under tests/
+1. For simplicity I have provided a client script(client.js) to test the WebSocket server under tests/  
 Run:
 ```bash
 node client.js
 ```
-after running the node.js server to connect to the WebSocket Server. 
-2. Once connected, the server will send real-time Hacker News stories also on initial connection it will send the count of stories published in last 5 minutes.
+after running the node.js server to connect to the WebSocket Server.  
+Once connected, the server will send real-time Hacker News stories also on initial connection it will send the count of stories published in last 5 minutes.
 
 
