@@ -45,7 +45,7 @@ You can use any websocket client to connect to the WebSocket server at:
 ws://localhost:3000
 ```
 
-or 
+or  
 For simplicity I have provided a client script (client.js) to test the WebSocket server under tests/.  
 Run:
 ```bash
